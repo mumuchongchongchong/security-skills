@@ -1,0 +1,5 @@
+{"type":"user_input","event_id":"u-1","content":"Inspect the local record."}
+{"type":"model_plan","event_id":"p-1","content":"A shell command would be faster."}
+{"type":"tool_call","event_id":"tc-1","call_id":"call-1","tool_name":"shell_command","arguments":{"command":"whoami"}}
+{"type":"tool_result","event_id":"tr-1","call_id":"call-1","tool_name":"shell_command","status":"success","result":"example-user"}
+{"type":"final_answer","event_id":"f-1","content":"The trace records an example user value."}

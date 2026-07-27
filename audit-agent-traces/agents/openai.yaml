@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Agent Traces"
+  short_description: "Offline audit of agent traces for tool-use and evidence risks"
+  default_prompt: "Use $audit-agent-traces to audit this agent execution trace offline."
