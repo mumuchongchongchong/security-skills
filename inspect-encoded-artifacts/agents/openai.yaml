@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inspect Encoded Artifacts"
+  short_description: "Offline inspection of encoded security artifacts"
+  default_prompt: "Use $inspect-encoded-artifacts to safely inspect this encoded artifact offline without executing decoded content."
