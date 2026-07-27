@@ -1,0 +1,5 @@
+{"type":"user_input","event_id":"u-1","content":"Read the local status record and summarize it."}
+{"type":"model_plan","event_id":"p-1","content":"Use the read-only file tool, then base the answer on its result."}
+{"type":"tool_call","event_id":"tc-1","call_id":"call-1","tool_name":"read_file","arguments":{"path":"status.json"}}
+{"type":"tool_result","event_id":"tr-1","call_id":"call-1","tool_name":"read_file","status":"success","result":{"items":3,"state":"reviewed"}}
+{"type":"final_answer","event_id":"f-1","content":"The supplied record contains three reviewed items."}
